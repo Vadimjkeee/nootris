@@ -1,0 +1,28 @@
+.header{
+	background-color: #111;
+	padding: 23px 0;
+	&__content{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+.navbar-menu {
+	display: flex;
+	list-style-type: none;
+	&__item{
+		margin-right: 40px;
+	}
+	&__link{
+		text-decoration: none;
+		color: #fff;
+	}
+	&__link:hover{
+		color: #fcda28;
+	}
+}
+
+.burger{
+	display: none;
+}

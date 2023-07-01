@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Nootris</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&family=Rubik:wght@400;700&display=swap"
+		rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.1.0/mdb.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header__content">
+				<div class="header__logo">
+					<a href="#"><img src="img/header/logo.svg" alt="Логотип компании" class="header__logo-img"></a>
+				</div>
+				<ul class="navbar-menu">
+					<li class="navbar-menu__item">
+						<a href="#" class="navbar-menu__link">FAQ</a>
+					</li>
+					<li class="navbar-menu__item">
+						<a href="#" class="navbar-menu__link">Оплата и доставка</a>
+					</li>
+					<li class="navbar-menu__item">
+						<a href="#" class="navbar-menu__link">Возврат</a>
+					</li>
+					<li class="navbar-menu__item">
+						<a href="#" class="navbar-menu__link">Исследования</a>
+					</li>
+					<li class="navbar-menu__item">
+						<a href="#" class="navbar-menu__link">Личный кабинет</a>
+					</li>
+					<li class="navbar-menu__item">
+						<a href="tel:88006000990" class="navbar-menu__link">8 8 (800) 600-09-90</a>
+					</li>
+				</ul>
+				<div class="header__basket">
+					<a href="#"><img src="img/header/basket.svg" alt="Корзина товаров" class="header__basket-img"></a>
+				</div>
+			</div>
+			<section class="burger">
+				<nav class="navbar">
+					<div class="container-fluid">
+						<div class="col-4 col--left header__logo">
+							<img src="img/header/logo.svg" alt="Логотип" class="header-logo">
+						</div>
+						<button class="navbar-toggler first-button" type="button" data-mdb-toggle="collapse"
+							data-mdb-target="#navbarToggleExternalContent9" aria-controls="navbarToggleExternalContent9"
+							aria-expanded="false" aria-label="Toggle navigation">
+							<div class="animated-icon1"><span></span><span></span><span></span></div>
+						</button>
+					</div>
+				</nav>
+				<div class="collapse" id="navbarToggleExternalContent9">
+					<ul class="navbar-menu">
+						<li class="navbar-menu__item">
+							<a href="#" class="navbar-menu__link">FAQ</a>
+						</li>
+						<li class="navbar-menu__item">
+							<a href="#" class="navbar-menu__link">Оплата и доставка</a>
+						</li>
+						<li class="navbar-menu__item">
+							<a href="#" class="navbar-menu__link">Возврат</a>
+						</li>
+						<li class="navbar-menu__item">
+							<a href="#" class="navbar-menu__link">Исследования</a>
+						</li>
+						<li class="navbar-menu__item">
+							<a href="#" class="navbar-menu__link">Личный кабинет</a>
+						</li>
+						<li class="navbar-menu__item">
+							<a href="tel:88006000990" class="navbar-menu__link">8 8 (800) 600-09-90</a>
+						</li>
+					</ul>
+					<div class="header__basket">
+						<a href="#"><img src="img/header/basket.svg" alt="Корзина товаров"
+								class="header__basket-img"></a>
+					</div>
+				</div>
+			</section>
+		</div>
+	</header>
+
+	<main class="main">
+		<section class="presentation">
+			<div class="container">
+				<h1 class="presentation__title">АКТИВИРУЙ
+					<span class="presentation__title--bottom"> ИММУНИТЕТ!</span>
+				</h1>
+				<p class="presentation__subtitle">Всего пять секунд в день помогут укрепить иммунитет
+					и повысить защитные силы организма</p>
+				<h3 class="presentation__advice-title">NOOTRIS ПОМОГАЕТ</h3>
+				<p class="presentation__advice-subtitle">Вашему организму во время пандемии
+					и сезонных простуд</p>
+				<img src="img/main/vitamin.png" alt="Упаковка витаминов nootris" class="presentation__vitamin">
+			</div>
+		</section>
+		<section class="order">
+			<div class="container">
+				<div class="order__title">
+					<span class="order__title--white">ПОЛУЧИ ЗАЩИТУ ИММУНИТЕТА</span>
+					<span class="order__title--yellow">СО СКИДКОЙ -15% ПЕРВЫМ!</span>
+				</div>
+				<div class="order__sale">
+					<span class="order__sale--old">750₽</span>
+					<span class="order__sale--new">690₽</span>
+				</div>
+				<div class="advantage">
+					<div class="advantage__item">
+						<img src="img/main/ginger.png" alt="Имбирь" class="advantage__img">
+						<p class="advantage__title advantage__text">Содержит </p>
+						<p class="advantage__subtitle advantage__text">имбирь</p>
+					</div>
+					<div class="advantage__item advantage__item--center">
+						<img src="img/main/nootris.png" alt="Витамины" class="advantage__img advantage__img--center">
+						<p class="advantage__title advantage__text advantage__text--center">+ Бесплатная доставка</p>
+						<p class="advantage__subtitle advantage__text advantage__text--center">Специальная цена</p>
+					</div>
+					<div class="advantage__item">
+						<img src="img/main/vorus.png" alt="Вирус" class="advantage__img">
+						<p class="advantage__title advantage__text">Нейтрализует</p>
+						<p class="advantage__subtitle advantage__text">вирусы</p>
+					</div>
+				</div>
+					<button class="order__button" type="button">Оформить заказ!</button>
+			</div>
+		</section>
+	</main>
+
+	<script src="/js/script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.1.0/mdb.min.js"></script>
+</body>
+
+</html>

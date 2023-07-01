@@ -1,0 +1,214 @@
+@media (max-width: 1350px) {
+    .container {
+        max-width: 1000px;
+    }
+    .presentation {
+        &__title {
+            font-size: 90px;
+            line-height: 135px;
+        }
+    }
+    .navbar-menu {
+        &__item {
+            margin-right: 20px;
+        }
+    }
+}
+@media (max-width: 1200px) {
+    .container {
+        max-width: 950px;
+    }
+    .presentation {
+        &__title {
+            font-size: 70px;
+            padding-bottom: 0;
+            line-height: 82px;
+            &--bottom {
+                padding-bottom: 24px;
+                display: block;
+            }
+        }
+        &__vitamin {
+            height: 800px;
+        }
+    }
+    .navbar-menu {
+        &__item {
+            margin-right: 15px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 700px;
+    }
+    .header {
+        &__logo{
+            margin-right: 35px;
+        }
+        &__content {
+            display: none;
+        }
+        &__basket{
+            text-align: left;
+            margin-left: 15px;
+            margin-top: 20px;
+        }
+    }
+    .presentation {
+        &__vitamin {
+            height: 600px;
+        }
+    }
+    .advantage {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .burger {
+        display: block;
+    }
+    .navbar-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 20px;
+        &__item{
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 550px;
+    }
+}
+
+@media (max-width: 615px) {
+    .container {
+        max-width: 490px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 400px;
+    }
+    .advantage {
+        &__item {
+            max-width: 100%;
+        }
+        &__text {
+            font-size: 20px;
+            line-height: 25px;
+        }
+        &__img {
+            margin-bottom: 30px;
+            &--center {
+                max-width: 300px;
+            }
+        }
+    }
+    .order {
+        &__title {
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
+        &__sale {
+            &--old {
+                font-size: 30px;
+            }
+            &--new {
+                font-size: 36px;
+            }
+        }
+    }
+    .presentation {
+        &__title {
+            font-size: 60px;
+        }
+        &__vitamin {
+            height: 400px;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .advantage {
+        &__img {
+            &--center {
+                max-width: 230px;
+            }
+        }
+    }
+    .container {
+        max-width: 300px;
+    }
+    .presentation {
+        padding: 40px;
+        &__title {
+            font-size: 38px;
+        }
+        &__subtitle {
+            padding-bottom: 60px;
+            font-size: 16px;
+        }
+        &__vitamin {
+            height: 300px;
+            bottom: -35px;
+        }
+    }
+    .order {
+        padding: 60px;
+        &__title {
+            font-size: 28px;
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        max-width: 250px;
+    }
+    .presentation {
+        &__title {
+            font-size: 18px;
+            line-height: 30px;
+        }
+        &__subtitle {
+            font-size: 14px;
+        }
+        &__advice {
+            &-title {
+                font-size: 18px;
+            }
+            &-subtitle {
+                font-size: 14px;
+            }
+        }
+        &__vitamin {
+            display: none;
+        }
+    }
+    .advantage {
+        &__img {
+            max-width: 150px;
+        }
+    }
+    .order {
+        &__title {
+            font-size: 18px;
+            line-height: 25px;
+        }
+        &__sale {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            &--old {
+                margin-right: 0;
+            }
+        }
+    }
+}

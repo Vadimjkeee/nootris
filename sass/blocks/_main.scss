@@ -1,0 +1,144 @@
+.presentation {
+    position: relative;
+    background: #fcda28;
+    padding: 96px 0;
+    z-index: -1;
+    &__title {
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 144px;
+        line-height: 152px;
+        color: #ffffff;
+        padding-bottom: 24px;
+        z-index: 3;
+    }
+    &__subtitle {
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+        padding-bottom: 120px;
+        max-width: 580px;
+    }
+    &__advice-title {
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 43px;
+        color: #000000;
+        padding-bottom: 24px;
+    }
+    &__advice-subtitle {
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #000000;
+        max-width: 310px;
+    }
+    &__vitamin {
+        position: absolute;
+        bottom: -70px;
+        right: 0px;
+        z-index: -1;
+    }
+}
+
+.order {
+    background-color: #111;
+    text-align: center;
+    padding: 112px 0;
+    &__title {
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 57px;
+        text-align: center;
+        max-width: 900px;
+        margin: auto;
+        margin-bottom: 85px;
+        &--white {
+            color: #ffffff;
+        }
+        &--yellow {
+            color: #fcda28;
+        }
+    }
+    &__sale {
+        margin-bottom: 59px;
+        &--old {
+            font-family: "Rubik";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 43px;
+            color: #adadad;
+            text-decoration: line-through;
+            margin-right: 32px;
+        }
+        &--new {
+            font-family: "Rubik";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 57px;
+            color: #ffffff;
+        }
+    }
+    &__button {
+        background: #fcb500;
+        border-radius: 7px;
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        padding: 16px 32px;
+        color: #000000;
+        border: none;
+    }
+    &__button:hover{
+        box-shadow: #111;
+        background: #fcda28;
+        border: #ffffff;
+        cursor: pointer;
+    }
+}
+
+.advantage {
+    display: flex;
+    justify-content: space-between;
+    &__item {
+        margin-bottom: 64px;
+    }
+    &__img {
+        margin-bottom: 78px;
+        &--center{
+            margin-bottom: 45px;
+        }
+    }
+    &__text {
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        &--center {
+            font-size: 36px;
+            line-height: 43px;
+        }
+    }
+    &__title {
+        color: #ffffff;
+    }
+    &__subtitle {
+        color: #fcb500;
+    }
+}
